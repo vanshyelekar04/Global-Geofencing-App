@@ -32,3 +32,21 @@ Ensure the following are installed before running the app:
    ```bash
    git clone https://github.com/vanshyelekar04/Global-Geofencing-App.git
    cd Global-Geofencing-App
+2. **Set Up a Virtual Environment (recommended)**:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install Dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the Application**:
+
+   ```bash
+   streamlit run main.py
+5. **Access the App**:
+   
+   ***Open your browser and navigate to http://localhost:8501 to start using the app.***
