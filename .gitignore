@@ -1,0 +1,12 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Streamlit config
+.streamlit/
+
+# Database file (optional, you may want to track this in development)
+database/global_geofencing.db
+
+# Sensitive configuration or API keys
+config.json
